@@ -1,0 +1,18 @@
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+  height: 600px;
+  overflow: hidden;
+  background-image: linear-gradient(
+      to bottom rgba(215, 201, 201, 0.6),
+      rgba(215, 201, 201, 0.6)
+    ),
+    url(../images/bamboo-trees-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: solid 15px #ccc7c7;
+  border-radius: 45px;
+}
