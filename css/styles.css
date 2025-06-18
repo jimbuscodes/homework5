@@ -115,3 +115,8 @@ p {
 .blank {
   height: 125px;
 }
+
+.icon {
+  padding: 10px;
+  color: #388e17;
+}
