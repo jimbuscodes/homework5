@@ -50,11 +50,26 @@ p {
           flex-direction: column;
 }
 .wrapper .form-title {
-  padding-top: 20px;
+  padding-top: 15px;
   margin-left: 12%;
   font-family: gillsans-light-italic;
   font-size: 50px;
   color: #fff;
+}
+.wrapper .input-name-wrapper {
+  position: relative;
+  margin-top: 5px;
+  margin-left: 10%;
+  max-width: 60%;
+}
+.wrapper .input-name-wrapper .name {
+  width: 100%;
+  padding: 20px;
+  outline: none;
+  border-radius: 40px;
+  border: solid 3px #388e17;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .wrapper .input-wrapper1 {
   position: relative;
@@ -133,7 +148,7 @@ p {
   border-radius: 10px;
 }
 .wrapper button {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 10%;
   max-width: 15%;
   padding: 10px;
